@@ -11,7 +11,7 @@ namespace Day15Hashtable
     {
         static void Main(string[] args)
         {
-            string paragraph = "To be or not to be";
+            string paragraph = "Paranoids are not paranoid because they are paranoid but beacuse they keep puting themselves delibertely into paranoid avoidablesituation";
             CountNumbOfOccurence(paragraph);
             Console.ReadLine();
         }
@@ -31,10 +31,10 @@ namespace Day15Hashtable
             }
             Console.WriteLine("Displaying after add operation");
             hashTabe.Display();
-            string s = "or";
-            hashTabe.Remove(s);
-            Console.WriteLine("After removed an item {0}", s);
-            hashTabe.Display();
+            //string s = "or";
+            //hashTabe.Remove(s);
+            //Console.WriteLine("After removed an item {0}", s);
+            //hashTabe.Display();
         }
     }
 }
